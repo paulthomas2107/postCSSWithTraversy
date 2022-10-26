@@ -1,0 +1,26 @@
+{
+  "name": "postcsswithtraversy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "watch:css": "postcss style.css -o dist/style.css -w",
+    "build:css": "postcss style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulthomas2107/postCSSWithTraversy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulthomas2107/postCSSWithTraversy/issues"
+  },
+  "homepage": "https://github.com/paulthomas2107/postCSSWithTraversy#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0"
+  }
+}
