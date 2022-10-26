@@ -2,7 +2,12 @@
     padding: 20px;
     margin-top: 20px;
     border: $borderWidth solid $borderColor;
-    width: 500px;
+    background-image: resolve('logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: width('logo.png');
+    height: height('logo.png');
+
 
     h2 {
         color: red
